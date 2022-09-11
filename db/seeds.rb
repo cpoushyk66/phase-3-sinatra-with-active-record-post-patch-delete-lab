@@ -1,4 +1,6 @@
 puts "🌱 Seeding data..."
+Bakery.destroy_all
+BakedGood.destroy_all
 
 baked_good_names = ["Croissant", "Rhubarb Pie", "Black and White Cookie", "Scone", "Banana Bread"]
 
